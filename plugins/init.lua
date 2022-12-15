@@ -80,4 +80,11 @@ return {
       require("better_escape").setup()
     end,
   },
+
+  ["akinsho/git-conflict.nvim"] = {
+    tag = "*",
+    config = function()
+      require("git-conflict").setup()
+    end,
+  },
 }
